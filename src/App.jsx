@@ -28,7 +28,7 @@ function App() {
   const handleButtonClick = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:3000/api/generate-quotes');
+      const response = await axios.post('https://jaun-gpt-backend.onrender.com/api/generate-quotes');
       console.log('API Response:', response.data.quotations);
       setQuotes(response.data.quotations);
       navigate('/chat-screen', { state: { quotations: response.data.quotations } });
