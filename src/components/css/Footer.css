@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+
+.footer {
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.footer .logo {
+  font-family: 'Vujahday Script', cursive;
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+} 
